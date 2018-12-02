@@ -1,0 +1,98 @@
+body {
+  font-family: Arial;
+  font-size: 10px;
+}
+
+p {
+  padding-top: 10px;
+  padding-right: 200px;
+  padding-left: 20px;
+}
+
+a {
+  font-size: 12px;
+  color:#FFFFFF;
+}
+
+.sidebar {
+  /* position: absolute; */
+  width: 20%;
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sidebar img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h3 {
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.header {
+  background-color: #aa2217;
+  color:#FFFFFF;
+  overflow: hidden;
+  padding: 15px 20px;
+  display: table;
+  width: 100%;
+}
+.header-right {
+  display: table-cell;
+  height: 20px;
+  width: 100px;
+  vertical-align: middle;
+}
+
+.page-title {
+  display: table-cell;
+  height: 30px;
+  vertical-align: middle;
+  position: relative;
+  left: 30px;
+}
+
+.sub-header {
+  background-color: #333333;
+  display: block;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+.sub-header a {
+  float: right;
+  padding: 5px
+}
+
+.main-section {
+  padding: 20px;
+}
+
+.main-section img {
+  width: 75%;
+}
+
+.footer {
+  background-color: #333333;
+  color: white;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 10px 20px;
+}
